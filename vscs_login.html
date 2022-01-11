@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body bgcolor=white>
+<style>
+body {
+  background-image: url('vscsreport2.jpg');
+background-size:100% 180%;
+display: flex;
+justify-content: center;
+align-items: center;
+width:100vw;
+height:100vh;
+letter-spacing: 0.5px;
+}
+.form-main{
+  width:400px;
+ background: rgba(0,0,0,0.46);
+ border-radius: 20px;
+padding:20px 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+label{
+  display: block;
+  margin-bottom: 8px;
+  font-size:20px;
+  color:rgb(255, 255, 255);
+  font-weight: 600;
+  text-shadow:0 1px rgba(0,0,0,0.26);
+}
+input{
+  width:300px;
+  border-radius: 20px;
+  border:none;
+  padding:10px 20px;
+  font-size:16px;
+  margin-bottom: 20px;
+}
+
+.form-main p{
+  font-size:25px;
+  font-weight:500;
+  color:rgb(231, 255, 255);
+  text-align: center;
+}
+.btn-wrap{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width:300px;
+  margin-bottom: 18px;
+}
+button.btn{
+  font-size: 16px;
+  padding:8px 20px;
+  border-radius: 20px;
+  outline:none;
+  border: 1px solid rgb(29, 240, 255);
+  color:white;
+  width:100px;
+  cursor:pointer;
+
+  background: rgb(17, 1, 87);
+  transition: 150ms ease background;
+}
+button.btn:hover{
+
+  background: rgb(43, 15, 167);
+}
+a.btn{
+margin-top: 8px;
+  color:rgb(184, 231, 231);
+  font-size:18px;
+  font-weight: 400;
+  text-shadow:0 1px rgba(0,0,0,0.26);
+  text-decoration: none;
+ color: white;
+ border-bottom:1px solid transparent;
+ transition: 300ms ease all;
+}
+
+a.btn:hover {
+ border-bottom:1px solid cyan;
+}
+span{
+  color:rgb(9, 255, 243);
+}
+</style>
+
+
+<form action="" class="form-main">
+  <p>Sign In</p>
+    <div class="form-group">
+      <label for="">Username</label>
+      <input type="text"  placeholder="Enter username">
+    </div>
+    <div class="form-group">
+      <label for="">Password</label>
+      <input type="text" placeholder="Enter password">
+    </div>
+    <div class="btn-wrap">
+    <button class="btn">Reset</button>
+    <button class="btn">Submit</button>
+    </div>
+    
+      <a href="" class="btn"><span> Forgot Password?</span> Click here to reset</a>
+      <a href="" class="btn">New User?<span> Sign up</span> here</a>
+   
+
+
+</form>
+<!-- 
+<form>
+<table align = left cellspacing=100px>
+<tr>
+<td>
+<table border=0 cellpadding=0px align=centre bgcolor=gray height=auto width=100px>
+<tr>
+<td style="font-size:40px"> Login: </td>
+<td>
+<input type="text" name="login" size=30px maxlength=5>
+</input>
+</td>
+</tr>
+
+<tr>
+<td style="font-size:40px"> Password: </td>
+<td>
+<input type="password" name="password" size=30px maxlength=10>
+</input>
+</td>
+</tr>
+
+
+<tr align=center>
+<td> </td>
+<td>
+<table cellspacing=30px>
+<tr>
+<td><button><a href="forgot.html">Forgot Password</a></button></td>
+<td><button><a href="newuser.html">New_User</a></button></td>
+<td><input type="submit" name="submit" </input></td>
+<td><input type="reset" name="reset"></input></td>
+<td><button><a href="vscs_index.html">Home</a></button></td>
+</tr></table></td>
+</form> -->
+</body>
